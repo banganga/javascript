@@ -3,23 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Title of the document</title>
-<script src="scripts.js"></script>
+<link href="style.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
 Content of the document......
 <script type="text/javascript">
+$(document).ready(function(){
+	$("#super_div").click(function() {
+		$(this).hide(800);
+	});
+});
 
-function countNum (num1) {
-	var num1;
-	num1 = prompt('Введи число', '');
-	var res = 100 - num1;
-	return res;
-}
-console.log(countNum());
 </script>
 
+<div id="super_div"></div>
 </body>
 
 </html>
