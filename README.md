@@ -8,5 +8,5 @@
 		git status
 		git fetch
 		git pull
-
-		
+3. создать index.html и наполнить его стандартным содержимым
+4. 
