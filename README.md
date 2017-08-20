@@ -16,3 +16,12 @@
 7.  Заменить alert() на console.log()
 8.	Прочитать https://learn.javascript.ru/external-script#асинхронные-скрипты-defer-async
 9.	Оставить комментарий
+10.	Обязательно прочитать: https://learn.javascript.ru/function-declaration-expression
+11.	### Обьекты
+		Создайте пустой объект user.
+		Добавьте свойство name со значением Вася.
+		Добавьте свойство surname со значением Петров.
+		Поменяйте значение name на Сергей.
+		Удалите свойство name из объекта.
+12. Подключить JQuery
+13.	
