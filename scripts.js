@@ -1,1 +1,7 @@
-console.log("good!");
+var user = {
+  name: "Вася",
+  surname: "Петров",
+
+
+};
+user.name = "Сергей";
