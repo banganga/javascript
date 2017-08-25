@@ -2,4 +2,4 @@ var object = {
 
 };
 object.name = "Вася";
-alert(object.name);
+object.surname = "Петров";
