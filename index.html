@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
-<link href="style.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Let's learn javascript together!</title>
+	<link href="style.css" rel="stylesheet">
+	<script type="text/javascript" src="scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style type="text/css">
+	  #test{
+	    background: red;
+	    width: 40px;
+	  }
+	</style>
 </head>
 
-<body>
-Content of the document......
-<script type="text/javascript">
-$(document).ready(function(){
-	$("#super_div").click(function() {
-		$(this).hide(800);
-	});
+	<body>
+		<h2>alex</h2>
 
-	$("#mega_div").click(function() {
-		$(this).css("display", "none");
-	});
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#super_div").click(function() {
+					$(this).hide(800);
+				});
+				$("#mega_div").click(function() {
+					$(this).css("display", "none");
+				});
+			});
+		</script>
 
-});
+		<div id="super_div"></div>
+		<div id="mega_div"></div>
 
+		<br />
 
-</script>
+		<h2>max</h2>
 
-<div id="super_div"></div>
-<div id="mega_div"></div>
-</body>
-
+		<div id="test" onclick="$('#test').hide()">
+		  Test
+		</div>
+	</body>
 </html>
