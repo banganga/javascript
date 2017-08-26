@@ -8,14 +8,14 @@
 		git status
 		git fetch
 		git pull
-		###	Создать свою ветку 
-				git branch <branch_name>
-				git checkout <branch_name>
-		ИЛИ совместив обе команды в одну, создаем ветку и сразу переключаемся на нее:
-				git checkout -b <branch_name>
-		### Для удаления опубликованного коммита я использовал:
-				git reset --hard HEAD^
-				git push origin master -f
+###	Создать свою ветку 
+		git branch <branch_name>
+		git checkout <branch_name>
+ИЛИ совместив обе команды в одну, создаем ветку и сразу переключаемся на нее:
+		git checkout -b <branch_name>
+### Для удаления опубликованного коммита я использовал:
+		git reset --hard HEAD^
+		git push origin master -f
 3. Создать index.html и наполнить его стандартным содержимым
 4. Вывести alert hello world
 5. Создать функцию выводящую(alert) разность между числом 100 и введеным вами числом.
@@ -25,7 +25,8 @@
 8.	Прочитать https://learn.javascript.ru/external-script#асинхронные-скрипты-defer-async
 9.	Оставить комментарий
 10.	Обязательно прочитать: https://learn.javascript.ru/function-declaration-expression
-11.	### Обьекты
+11.	
+### Обьекты
 		Создайте пустой объект user.
 		Добавьте свойство name со значением Вася.
 		Добавьте свойство surname со значением Петров.
