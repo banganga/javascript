@@ -3,21 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>my first</title>
-    <script type="text/javascript" src="scripts.js">
-  </script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">
-  </script>
+    </script>
+    <script type="text/javascript" src="scripts.js"></script>
+
   <style type="text/css">
   #test{
     background: red;
-    width: 40px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position:fixed;
+
   }
+  #block{
+    background: white;
+    width: 300px;
+    height: 300px;
+    display: none;
+    margin: auto;
+    position:fixed;
+}
   </style>
     </head>
   <body>
-    <div id="test" onclick="$('#test').hide()">
-      Test
-    </div>
+
+    <div id="test" onclick="hideItem()"></div>
+    <div id="block"></div>
+
   </body>
 
 </html>
